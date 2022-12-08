@@ -10,9 +10,9 @@ const Navbar = ({title}) => {
             <FaGithub className="text-3xl font-bold"/>
             <Link to="/" className="text-lg">{title}</Link>
         </div>
-        <div className="flex gap-4">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
+        <div className="flex gap-2">
+            <Link to="/"><button className="hover:bg-gray-700 text-white-400 p-2 rounded-lg">Home</button></Link>
+            <Link to="/about"><button className="hover:bg-gray-700 text-white-400 p-2 rounded-lg">About</button></Link>
         </div>
     </nav>
   )
